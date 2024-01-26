@@ -1,0 +1,13 @@
+.visual {
+    display: flex!important;
+    align-items: center!important;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.visual.dark, .visual.dark * {
+    color: #ffffff!important
+}
+
+.visual-top {
+    min-height: 50vh;
+}

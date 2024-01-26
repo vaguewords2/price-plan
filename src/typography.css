@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Anton';
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Anton');
+}
+
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+* {
+  font-family: 'Pretendard Variable';
+  letter-spacing: -0.65px !important;
+  line-height: 1.5;
+}
+
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6 {
+  font-family: 'Pretendard Variable' !important;
+  letter-spacing: -0.65px !important;
+  line-height: 1.25 !important;
+  font-weight: 700!important;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-size: 0.55em;
+  font-weight: 400;
+}
+
+h1.price,
+h2.price,
+h3.price,
+h4.price,
+h5.price,
+h6.price {
+
+}

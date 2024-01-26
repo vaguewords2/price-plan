@@ -1,0 +1,52 @@
+.card-price {
+    border-top: solid 3px #1867c0;
+}
+.card-price.dark {
+    background-color: #1867c0!important;
+    color: #fff!important;
+}
+
+.card-price.dark:hover {
+    background-color: rgb(24, 103, 192, 0.65)!important;
+}
+
+.card-price:hover {
+    background-color: rgb(24, 103, 192, 0.1)!important;
+}
+
+.card-price > * {
+    letter-spacing: -0.75px;
+    text-transform: uppercase!important;
+}
+
+.card-price h2 {
+    font-weight: 900;
+
+}
+
+.card-price h6 {
+    color: rgb(24, 103, 192, 1);
+
+}
+.card-price:hover h6 {
+    color: #eee!important;
+}
+.card-price:hover .text-primary {
+    color: #fff!important;
+}
+
+card-price-area {
+    
+}
+
+@media screen and (max-width: 1299px) and (min-width: 993px) {
+    .card-price h2, .card-price h3 {
+        font-size: 100%
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-price-area {
+        flex-wrap: wrap;
+    }
+}
