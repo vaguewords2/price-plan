@@ -1,4 +1,4 @@
 # price-plan
- joongabi pro price plan test
-$ yarn install
-$ yarn run dev
+## joongabi pro price plan test
+#### yarn install
+#### yarn run dev
