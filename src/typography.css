@@ -40,11 +40,12 @@ h6 small {
   font-weight: 400;
 }
 
-h1.price,
-h2.price,
-h3.price,
-h4.price,
-h5.price,
-h6.price {
-
+@media screen and (max-width: 992px) {
+  h1.text-h3 {
+    font-size: 1.75rem!important
+  }
+  h1.banner-title{
+    font-size: 1.75rem!important;
+    line-height: 1.25;
+  }
 }

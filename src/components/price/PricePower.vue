@@ -5,10 +5,10 @@
         <v-col cols="12" lg="6" v-for="pricepower in pricepowers">
             <v-card class="px-4 py-4" variant="outlined" flat>
                 <v-row>
-                    <v-col cols="1" class="d-flex align-center justify-center text-center">
+                    <v-col cols="auto" class="d-flex align-center justify-center text-center p-2">
                         <img :src="pricepower.image" width="48"/>
                     </v-col>
-                    <v-col cols="11" class="text-left">
+                    <v-col class="text-left">
                         <v-card-title class="pb-0">
                             <h3>{{ pricepower.title }}</h3>
                         </v-card-title>
