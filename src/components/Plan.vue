@@ -5,6 +5,7 @@ import AboutTabs from './about/AboutTabs.vue';
 import PriceInfo from './price/PriceInfo.vue';
 import PriceVisual from './price/PriceVisual.vue';
 import PriceTable from './price/PriceTable.vue';
+import PriceFunc from './price/PriceFunc.vue';
 </script>
 <template>
     <PlanVisual />
@@ -25,10 +26,10 @@ import PriceTable from './price/PriceTable.vue';
 
             <v-window-item value="two" class="text-center">
 
-                <PriceVisual />
+                <PriceVisual/>
                 <PriceInfo />
                 <PriceTable />
-
+                <PriceFunc />
             </v-window-item>
 
         </v-window>
