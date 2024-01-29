@@ -6,6 +6,7 @@ import PriceInfo from './price/PriceInfo.vue';
 import PriceVisual from './price/PriceVisual.vue';
 import PriceTable from './price/PriceTable.vue';
 import PriceFunc from './price/PriceFunc.vue';
+import PricePower from './price/PricePower.vue';
 </script>
 <template>
     <PlanVisual />
@@ -27,9 +28,9 @@ import PriceFunc from './price/PriceFunc.vue';
             <v-window-item value="two" class="text-center">
 
                 <PriceVisual/>
-                <PriceInfo />
-                <PriceTable />
-                <PriceFunc />
+                <PriceInfo/>
+                <PriceTable/>
+                <PriceFunc/>
             </v-window-item>
 
         </v-window>

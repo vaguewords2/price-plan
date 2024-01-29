@@ -1,11 +1,11 @@
 <template>
-    <v-row class="mt-4">
-        <v-col cols="12" class="text-left">
-            <h1>제공 기능</h1>
+    <v-row class="mt-4 pt-4">
+        <v-col cols="12" class="text-md-left">
+            <h1 class="mb-2">제공 기능</h1>
         </v-col>
     </v-row>
-
-    <v-table>
+    <v-sheet color="#fafafa" rounded="xl" class="py-4 px-4">
+        <v-table style="background-color: transparent;">
         <thead>
         </thead>
         <tbody class="text-left">
@@ -27,6 +27,8 @@
             </tr>
         </tbody>
     </v-table>
+    </v-sheet>
+
 </template>
 <script>
 export default {
@@ -40,14 +42,6 @@ export default {
                     for90: '90일',
                     for180: '180일',
                     for365: '365일',
-                },
-                {
-                    item: '상세설명',
-                    pc: '',
-                    for90: '60일',
-                    for180: '90일',
-                    for365: '90일',
-
                 },
                 {
                     item: '슬림',

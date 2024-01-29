@@ -50,3 +50,11 @@ card-price-area {
         flex-wrap: wrap;
     }
 }
+
+.border-white {
+    border: solid 1px #fff!important;
+}
+
+.bg-transparent {
+    background: transparent!important;
+}

@@ -21,7 +21,7 @@
 
 
 export default {
-    name: 'AboutVisual',
+    name: 'PriceVisual',
     data: () => ({
 
 

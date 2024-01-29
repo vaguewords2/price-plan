@@ -40,12 +40,32 @@ h6 small {
   font-weight: 400;
 }
 
+h1.banner-title {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+
 @media screen and (max-width: 992px) {
+  h1 {
+    font-size: 1.75rem
+  }
   h1.text-h3 {
     font-size: 1.75rem!important
   }
   h1.banner-title{
     font-size: 1.75rem!important;
-    line-height: 1.25;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.35rem
+  }
+  h1.banner-title{
+    font-size: 1.25rem!important;
+  }
+  p {
+    font-size: 90%
   }
 }
